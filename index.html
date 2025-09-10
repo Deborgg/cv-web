@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Urbánek</title>
+    <link rel="icon" type="image/x-icon" href="title.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            overflow-x: hidden; 
+        }
+        .pdf_frame {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        embed {
+            width: 40vw;          
+            max-width: 100%;
+            height: 100vh;        
+            border: none;
+            box-shadow: 0 0 20px rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf_frame">
+        <embed src="CV_eng.pdf">
+    </div>
+</body>
+</html>
